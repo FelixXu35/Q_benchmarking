@@ -5,15 +5,15 @@ Designed to compare the performance of two powerful devices in one specific area
 
 ### Participants
 
-1. MacBook Pro 16-inch model with 10+16 M1 Pro chip, 16 GB Ram and 512 GB ROM
+1. MacBook Pro 16-inch model with 10+16 M1 Pro chip, 16 GB RAM and 512 GB ROM
 2. PC runs windows with i7-13700k CPU, Nvidia 3090 Ti GPU, 64 GB DDR5 RAM (6400 MHz) and 1TB ROM.
 
 ### Software version:
 
-1. Python
-2. TensorFlow: 
+1. Python: 3.10.10
+2. TensorFlow: 2.12.0
 
-### Simple QAOA (TensorFlow, on CPU, with JIT)
+### Simple QAOA (TensorFlow, on CPU, with JIT) [🔗](./code/simple_QAOA.ipynb)
 
 Average time consuming in seconds.
 
@@ -30,7 +30,7 @@ Variance is the real variance multiply by 100.
 |       8        |  87.7903   |  666.091  |           |          |
 |       9        |  127.0566  | 378.7215  |           |          |
 
-### Simple QAOA (TensorFlow, on CPU, without JIT)
+### Simple QAOA (TensorFlow, on CPU, without JIT) [🔗](./code/simple_QAOA.ipynb)
 
 | Scaling factor | Time - Mac | Var - Mac | Time - PC | Var - PC |
 | :------------: | :--------: | :-------: | :-------: | :------: |
@@ -39,4 +39,6 @@ Variance is the real variance multiply by 100.
 |       4        |  180.3128  | 726.0712  |           |          |
 |       5        |  312.7019  | 2592.7605 |           |          |
 |       6        |  504.8649  |   2.757   |           |          |
+
+
 
