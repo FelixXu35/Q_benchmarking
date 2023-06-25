@@ -13,11 +13,25 @@ Designed to compare the performance of two powerful devices in one specific area
 1. Python: 3.10.10
 2. TensorFlow: 2.12.0
 
-### Simple QAOA (TensorFlow, on CPU, with JIT) [🔗](./code/simple_QAOA.ipynb)
+### Simple QAOA (TensorFlow, on CPU, without JIT) [🔗](./code/simple_QAOA.ipynb)
 
 Average time consuming in seconds.
 
 Variance is the real variance multiply by 100.
+
+| Scaling factor | Time - Mac | Time - PC |
+| :------------: | :--------: | :-------: |
+|       2        |   33.74    |   44.64   |
+|       3        |   87.11    |  111.27   |
+|       4        |   180.31   |  229.55   |
+|       5        |   312.70   |  402.61   |
+|       6        |   504.86   |  657.84   |
+|       7        |   869.24   |  1004.45  |
+|       8        |  1257.36   |  1536.35  |
+|       9        |  1731.85   |  2456.36  |
+|       10       |  2602.47   |           |
+
+### Simple QAOA (TensorFlow, on CPU, with JIT) [🔗](./code/simple_QAOA.ipynb)
 
 | Scaling factor | Time - Mac | Time - PC |
 | :------------: | :--------: | :-------: |
@@ -35,17 +49,3 @@ Variance is the real variance multiply by 100.
 |       13       |   627.16   |  947.65   |
 |       14       |   805.34   |           |
 |       15       |  1108.87   |           |
-
-### Simple QAOA (TensorFlow, on CPU, without JIT) [🔗](./code/simple_QAOA.ipynb)
-
-| Scaling factor | Time - Mac | Time - PC |
-| :------------: | :--------: | :-------: |
-|       2        |   33.74    |   44.64   |
-|       3        |   87.11    |  111.27   |
-|       4        |   180.31   |  229.55   |
-|       5        |   312.70   |  402.61   |
-|       6        |   504.86   |  657.84   |
-|       7        |   869.24   |  1004.45  |
-|       8        |  1257.36   |  1536.35  |
-|       9        |  1731.85   |  2456.36  |
-|       10       |  2602.47   |           |
