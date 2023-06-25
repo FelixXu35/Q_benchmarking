@@ -29,7 +29,7 @@ Variance is the real variance multiply by 100.
 |       7        |   869.24   |  1004.45  |
 |       8        |  1257.36   |  1536.35  |
 |       9        |  1731.85   |  2456.36  |
-|       10       |  2602.47   |           |
+|       10       |  2602.47   |  3650.68  |
 
 ### Simple QAOA (TensorFlow, on CPU, with JIT) [🔗](./code/simple_QAOA.ipynb)
 
